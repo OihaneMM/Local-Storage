@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+:root{
+    --main-color-oil1: #5a7878;
+    --main-color-oil2: #415758;
+    --main-color-oil3: #2d3d3e;
+    --main-color-oil4: #1d282a59;
+    --main-color-oil5: #12191b;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fjalla One', sans-serif;
+    cursor: crosshair;
+}
+
+body{
+    height: 100vh;
+    background-image: url(/img/soldier.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(2px) saturate(100%) brightness(100%);
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    text-shadow: 0px 0px 10px  var(--main-color-oil1);
+    -webkit-text-stroke: 0.1px rgba(255, 255, 255, 0.596)
+}
+
+h1{
+    font-size: 60px;
+}
+
+.entrada{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    backdrop-filter: blur(10px) ;
+    
+    
+    
+}
+
+.entrada h2 {
+    width: 500px;
+    background-color: var(--main-color-oil4);
+    padding: 10px;
+}
+
+
+.inputfondo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+    
+
+}
+.textarea {
+    backdrop-filter: blur(30px) ;
+    background: rgba(255, 255, 255, 0.192);
+    display: block;
+    margin-bottom: 20px;
+    width: 500px;
+    overflow: visible;
+    resize: vertical;
+    min-height: 40px;
+    line-height: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    
+    
+  }
+
+
+.linea{
+    display: flex;
+    justify-content: center;
+    margin: 0px 500px 10px;
+    border-bottom: 3px solid rgba(172, 125, 39, 0.829);
+    
+}
+
+.seguimiento{
+    padding: 20px;
+    margin: 0px 60px;
+    backdrop-filter: blur(10px) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.seguimiento h2, .seguimiento div{
+    margin-bottom: 5px;
+    padding: 20px 20px 10px; 
+    width: 900px;
+    background-color: var(--main-color-oil4);
+}
+
+
+button{
+    color: white;
+    padding: 10px 20px;
+    width: 500px;
+    background: none;
+    backdrop-filter: blur(30px) ;
+    border: none;
+    
+    
+}
+
+button:hover{
+    color: white;
+    padding: 10px 20px;
+    width: 500px;
+    background: none;
+    backdrop-filter: blur(100px) ;
+    border: 1px solid rgba(255, 255, 255, 0.637);
+    box-shadow: 0px 0px 70px 0px rgba(255, 255, 255, 0.582);
+}
+
+
+
+
+
