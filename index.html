@@ -8,21 +8,18 @@
     <title>Seguimiento de misiones</title>
 </head>
 <body>
-    
-
         <div class="titulo">
             <h1>REGISTRO DE MISIONES</h1>
         </div>
-       
        
         <div class="entrada">
             <h2>Agrega una nueva misión:</h2>
         </div>
 
         <form id="formulario">
-            <div class="inputfondo">  
+            <div class="inputfondo" id="inputFondo">  
 
-                <textarea class="textarea" id="mision" placeholder="hola"></textarea>
+                <textarea class="textarea" id="mision" placeholder="Introduzca aquí su próxima misión para agregarla al seguimiento"></textarea>
 
                 <button> Archivar</button>
 
@@ -35,8 +32,8 @@
         <div class="linea"></div>
 
         <div class="seguimiento">
-            <h2>Seguimiento de las misiones activas:</h2>
-            <div class="listaMisiones"></div> 
+            <h2>Seguimiento de las misiones activas:<h2>
+            <div id="listaMisiones"></div> 
         </div>
 <script src="/app.js"></script>
 </body>
